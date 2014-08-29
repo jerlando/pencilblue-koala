@@ -1,0 +1,19 @@
+<div id="progress_modal" class="modal fade" data-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" onclick="javascript:window.location.reload();" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="modal_label">^loc_PLEASE_WAIT^...</h4>
+        </div>
+        <div class="modal-body loading-modal-content">
+            <div id="progress_bar" class="progress progress-striped active">
+              <div id="bar" class="progress-bar progress-bar-info" role="progressbar"  aria-valuemin="0" aria-valuemax="100" style="width: 0"></div>
+            </div>
+            <textarea id="progress_console" rows="5" wrap="off"></textarea>
+        </div>
+        <div id="progress_footer" class="modal-footer">
+            <button class="btn btn-default" onclick="javascript:window.location.reload();" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;^loc_OK^</div>
+        </div>
+    </div>
+  </div>
+</div>
